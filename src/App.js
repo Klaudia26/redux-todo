@@ -38,6 +38,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <h1 className="heading">Todo List</h1>
         <form onSubmit={this.handleSubmit}>
           <input
             type="text"
