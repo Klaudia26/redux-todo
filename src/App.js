@@ -58,6 +58,7 @@ class App extends Component {
                   <button
                     onClick={() => this.handleDelete(todo.id)}
                     className="btn-delete"
+                    disabled={!todo.checked}
                   >
                     delete
                   </button>
